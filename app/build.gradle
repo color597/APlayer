@@ -18,13 +18,13 @@ repositories {
 }
 
 android {
-    compileSdkVersion 33
+    namespace "remix.myplayer"
+    compileSdk 33
     ndkVersion '25.1.8937393'
 
     defaultConfig {
-        applicationId "remix.myplayer"
-        minSdkVersion 19
-        targetSdkVersion 30
+        minSdk 19
+        targetSdk 30
 
         versionCode 15811
         versionName "1.5.8.1"
