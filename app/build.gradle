@@ -19,7 +19,7 @@ repositories {
 
 android {
     compileSdkVersion 31
-//    ndkVersion "23.0.7599858"
+    ndkVersion '25.1.8937393'
 
     defaultConfig {
         applicationId "remix.myplayer"
