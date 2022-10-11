@@ -202,6 +202,9 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.14.2'
     kapt 'com.github.bumptech.glide:compiler:4.14.2'
 
+    // jaudiotagger
+    implementation 'net.jthink:jaudiotagger:3.0.1'
+
     //other
     implementation 'com.facebook.rebound:rebound:0.3.8'
     implementation 'com.soundcloud.android:android-crop:1.0.1@aar'
@@ -209,10 +212,6 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:2.0.3'
     implementation 'com.github.tony19:logback-android:2.0.0'
 
-}
-
-android.sourceSets.all {
-    java.srcDirs += "src/third-party/jaudiotagger-android/src"
 }
 
 def getProperties(String fileName) {
