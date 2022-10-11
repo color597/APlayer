@@ -1219,6 +1219,8 @@ class SettingActivity : ToolbarActivity(), ColorChooserDialog.ColorCallback,
                     }
                   }).show()
             }
+
+            else -> {}
           }
         }
         .show()
