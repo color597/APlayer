@@ -24,8 +24,8 @@ class DrawerAdapter(layoutId: Int) : BaseAdapter<Int, DrawerHolder>(layoutId) {
   private val IMAGES = intArrayOf(R.drawable.drawer_icon_musicbox,
       R.drawable.ic_history_24dp,
       R.drawable.drawer_icon_recently_add,
-      R.drawable.darwer_icon_support,
-      R.drawable.darwer_icon_set,
+      R.drawable.drawer_icon_support,
+      R.drawable.drawer_icon_set,
       R.drawable.drawer_icon_exit)
   private val TITLES: IntArray = intArrayOf(R.string.drawer_song,
       R.string.drawer_history,
