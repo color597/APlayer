@@ -110,6 +110,9 @@ android {
     productFlavors {
         google {}
         nongoogle {}
+        nyanpasu {
+            applicationIdSuffix '.nyanpasu'
+        }
         productFlavors.all { flavor ->
             flavor.manifestPlaceholders = [CHANNEL_VALUE: name]
         }
