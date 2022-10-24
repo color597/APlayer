@@ -3,12 +3,14 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
   android:layout_height="@dimen/d56_size"
+  android:background="@drawable/drawer_bg_ripple"
+  android:layout_marginHorizontal="6dp"
   android:id="@+id/item_root">
   <ImageView
     android:layout_width="@dimen/d44_size"
     android:layout_height="@dimen/d44_size"
     android:id="@+id/item_img"
-    android:layout_marginLeft="@dimen/d16_size"
+    android:layout_marginStart="@dimen/d12_size"
     android:scaleType="center"
     android:layout_centerVertical="true"/>
   <TextView
@@ -16,6 +18,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:textSize="@dimen/s16_size"
-    android:layout_marginLeft="@dimen/d70_size"
+    android:layout_toEndOf="@id/item_img"
+    android:layout_marginStart="@dimen/d15_size"
     android:layout_centerVertical="true"/>
 </RelativeLayout>
