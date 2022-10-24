@@ -106,7 +106,6 @@ class SongAdapter(layoutId: Int, multiChoice: MultipleChoice<Song>, recyclerView
       holder.binding.songTitle.setTextColor(textColorPrimary)
       holder.binding.indicator.visibility = View.GONE
     }
-    holder.binding.indicator.setBackgroundColor(highLightTextColor)
 
     //标题
     holder.binding.songTitle.text = song.showName

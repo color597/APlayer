@@ -107,7 +107,6 @@ open class ChildHolderAdapter(layoutId: Int, private val type: Int, private val 
         holder.binding.songTitle.setTextColor(textColorPrimary)
         holder.binding.indicator.visibility = View.GONE
       }
-      holder.binding.indicator.setBackgroundColor(highLightTextColor)
 
       //设置标题
       holder.binding.songTitle.text = data.showName
