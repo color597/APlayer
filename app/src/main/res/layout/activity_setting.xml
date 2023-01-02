@@ -39,7 +39,8 @@
           android:id="@+id/setting_common_title"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_margin="@dimen/d14_size"
+          android:layout_marginTop="@dimen/d14_size"
+          android:layout_marginHorizontal="@dimen/d24_size"
           android:text="@string/common"
           android:textColor="?attr/colorAccent"
           android:textSize="@dimen/s16_size" />
@@ -51,13 +52,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/music_filter"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -65,6 +65,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/set_filter_size"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -77,13 +78,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/blacklist"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -91,6 +91,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/blacklist_tip"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -103,13 +104,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/lockscreen_show"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -118,6 +118,7 @@
             android:id="@+id/setting_lockscreen_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/choose_or_close_lockscreen"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -130,13 +131,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/manual_scan"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -145,6 +145,7 @@
             android:id="@+id/setting_scan_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/manual_scan_tip"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -157,13 +158,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/playlist_import"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -171,6 +171,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/playlist_import_tip"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -183,13 +184,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/export_playlist"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -197,6 +197,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/export_play_list_tip"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -209,13 +210,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/restore_songs"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -223,6 +223,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/restore_songs_tip"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -235,13 +236,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/select_language"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -249,6 +249,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/select_language_tips"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -259,13 +260,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_breakpoint_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -273,7 +274,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/play_breakpoint"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -281,6 +281,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/play_breakpoint_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -292,7 +293,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -302,12 +302,12 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_shake_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -315,7 +315,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/shake"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -323,6 +322,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/shake_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -334,7 +334,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -344,13 +343,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_displayname_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -358,7 +357,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/show_displayname"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -366,6 +364,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/show_displayname_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -377,7 +376,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -387,13 +385,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_force_sort_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -401,7 +399,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/force_sort"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -409,6 +406,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/force_sort_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -420,7 +418,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -440,7 +437,8 @@
           android:id="@+id/setting_play_title"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_margin="@dimen/d14_size"
+          android:layout_marginTop="@dimen/d14_size"
+          android:layout_marginHorizontal="@dimen/d24_size"
           android:text="@string/play"
           android:textColor="?attr/colorAccent"
           android:textSize="@dimen/s16_size" />
@@ -450,14 +448,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginStart="@dimen/d16_size"
-            android:layout_marginEnd="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_audio_focus_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -465,7 +462,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/audio_focus"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -473,6 +469,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/audio_focus_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -484,7 +481,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -496,13 +492,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/auto_play"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -510,6 +505,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/auto_play_tip"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -527,7 +523,8 @@
           android:id="@+id/setting_color_title"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_margin="@dimen/d14_size"
+          android:layout_marginTop="@dimen/d14_size"
+          android:layout_marginHorizontal="@dimen/d24_size"
           android:text="@string/color"
           android:textColor="?attr/colorAccent"
           android:textSize="@dimen/s16_size" />
@@ -539,13 +536,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/dark_theme"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -554,6 +550,7 @@
             android:id="@+id/setting_dark_theme_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
         </LinearLayout>
@@ -563,13 +560,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_black_theme_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -577,7 +574,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/black_theme"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -585,6 +581,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/black_theme_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -595,8 +592,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size" />
+            android:layout_centerVertical="true" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -604,13 +600,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_color_primary_indicator"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -618,7 +614,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/primary_color"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -626,6 +621,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/primary_color_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -637,7 +633,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:src="@drawable/bg_circle_small"
             tools:ignore="ContentDescription" />
         </RelativeLayout>
@@ -647,13 +642,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_color_accent_indicator"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -661,7 +656,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/accent_color"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -669,6 +663,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/accent_color_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -680,7 +675,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:src="@drawable/bg_circle_small"
             tools:ignore="ContentDescription" />
         </RelativeLayout>
@@ -691,13 +685,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_immersive_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -705,7 +699,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/immersive"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -713,6 +706,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/immersive_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -724,7 +718,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -734,13 +727,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_navaigation_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -748,7 +741,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/navigation_color"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -756,6 +748,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/navigation_is_show"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -767,7 +760,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -787,7 +779,8 @@
           android:id="@+id/setting_library_title"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_margin="@dimen/d14_size"
+          android:layout_marginTop="@dimen/d14_size"
+          android:layout_marginHorizontal="@dimen/d24_size"
           android:text="@string/library"
           android:textColor="?attr/colorAccent"
           android:textSize="@dimen/s16_size" />
@@ -799,13 +792,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/library_category"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -814,6 +806,7 @@
             android:id="@+id/setting_library_category_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/configure_library_category"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -834,7 +827,8 @@
           android:id="@+id/setting_player_title"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_margin="@dimen/d14_size"
+          android:layout_marginTop="@dimen/d14_size"
+          android:layout_marginHorizontal="@dimen/d24_size"
           android:text="@string/player"
           android:textColor="?attr/colorAccent"
           android:textSize="@dimen/s16_size" />
@@ -847,13 +841,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/now_playing_screen_background"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -862,6 +855,7 @@
             android:id="@+id/setting_now_playing_screen_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/now_playing_screen_theme"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -874,13 +868,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/show_on_bottom"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -888,6 +881,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/show_of_bottom_tip"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -898,13 +892,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_screen_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -912,7 +906,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/screen_always_on_title"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -920,6 +913,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/screen_always_on_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -931,7 +925,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -952,7 +945,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="start"
-          android:layout_margin="@dimen/d14_size"
+          android:layout_marginTop="@dimen/d14_size"
+          android:layout_marginHorizontal="@dimen/d24_size"
           android:text="@string/cover"
           android:textColor="?attr/colorAccent"
           android:textSize="@dimen/s16_size" />
@@ -962,13 +956,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_ignore_mediastore_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -976,7 +970,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/ignore_mediastore_artwork"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -984,6 +977,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/ignore_mediastore_artwork_tips"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -995,7 +989,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -1007,13 +1000,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/auto_download_album_artist_cover"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -1022,6 +1014,7 @@
             android:id="@+id/setting_album_cover_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/always"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -1034,13 +1027,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/cover_download_source"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -1049,6 +1041,7 @@
             android:id="@+id/setting_cover_source_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/cover_download_from_lastfm"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -1069,7 +1062,8 @@
           android:id="@+id/setting_lrc_title"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_margin="@dimen/d14_size"
+          android:layout_marginTop="@dimen/d14_size"
+          android:layout_marginHorizontal="@dimen/d24_size"
           android:text="@string/lrc"
           android:textColor="?attr/colorAccent"
           android:textSize="@dimen/s16_size" />
@@ -1079,13 +1073,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_lrc_float_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -1093,7 +1087,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/float_lrc"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -1102,6 +1095,7 @@
               android:id="@+id/setting_lrc_float_tip"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/opened_desktop_lrc"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -1113,7 +1107,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -1123,13 +1116,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@+id/setting_statusbar_lrc_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -1137,7 +1130,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/statusbar_lrc"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -1149,7 +1141,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -1161,13 +1152,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/lrc_priority"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -1175,6 +1165,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/lrc_priority_tip"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -1195,7 +1186,8 @@
           android:id="@+id/setting_notify_title"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_margin="@dimen/d14_size"
+          android:layout_marginTop="@dimen/d14_size"
+          android:layout_marginHorizontal="@dimen/d24_size"
           android:text="@string/notify"
           android:textColor="?attr/colorAccent"
           android:textSize="@dimen/s16_size" />
@@ -1205,13 +1197,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_notify_switch"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -1219,7 +1211,6 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="@dimen/d2_size"
               android:text="@string/notify_style"
               android:textColor="?attr/text_color_primary"
               android:textSize="@dimen/s16_size" />
@@ -1227,6 +1218,7 @@
             <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
               android:text="@string/notify_style_tip"
               android:textColor="?attr/text_color_secondary"
               android:textSize="@dimen/s14_size" />
@@ -1238,7 +1230,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textOff=""
             android:textOn="" />
         </RelativeLayout>
@@ -1250,13 +1241,12 @@
           android:background="?attr/background_rect_ripple"
           android:gravity="center_vertical"
           android:orientation="vertical"
-          android:paddingHorizontal="@dimen/d16_size"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/d2_size"
             android:text="@string/notify_bg_color"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s16_size" />
@@ -1264,6 +1254,7 @@
           <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:text="@string/notify_bg_color_info"
             android:textColor="?attr/text_color_secondary"
             android:textSize="@dimen/s14_size" />
@@ -1284,7 +1275,8 @@
           android:id="@+id/setting_other_title"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_margin="@dimen/d14_size"
+          android:layout_marginTop="@dimen/d14_size"
+          android:layout_marginHorizontal="@dimen/d24_size"
           android:text="@string/other"
           android:textColor="?attr/colorAccent"
           android:textSize="@dimen/s16_size" />
@@ -1294,13 +1286,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_eq_arrow"
             android:text="@string/eq_setting"
             android:textColor="?attr/text_color_primary"
@@ -1312,7 +1304,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             app:srcCompat="@drawable/ic_navigate_next_white_24dp"
             tools:ignore="ContentDescription" />
         </RelativeLayout>
@@ -1322,13 +1313,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_feedback_arrow"
             android:text="@string/feedback_info"
             android:textColor="?attr/text_color_primary"
@@ -1340,7 +1331,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             app:srcCompat="@drawable/ic_navigate_next_white_24dp"
             tools:ignore="ContentDescription" />
         </RelativeLayout>
@@ -1350,13 +1340,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_about_arrow"
             android:text="@string/about_info"
             android:textColor="?attr/text_color_primary"
@@ -1368,7 +1358,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             app:srcCompat="@drawable/ic_navigate_next_white_24dp"
             tools:ignore="ContentDescription" />
         </RelativeLayout>
@@ -1378,13 +1367,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_update_arrow"
             android:text="@string/check_update"
             android:textColor="?attr/text_color_primary"
@@ -1396,7 +1385,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:visibility="gone"
             app:srcCompat="@drawable/ic_navigate_next_white_24dp"
             tools:ignore="ContentDescription" />
@@ -1407,13 +1395,13 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:background="?attr/background_rect_ripple"
-          android:paddingVertical="@dimen/d10_size">
+          android:paddingHorizontal="@dimen/d24_size"
+          android:paddingVertical="@dimen/d12_size">
 
           <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginHorizontal="@dimen/d16_size"
             android:layout_toStartOf="@id/setting_clear_text"
             android:text="@string/clear_cache"
             android:textColor="?attr/text_color_primary"
@@ -1425,7 +1413,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/d14_size"
             android:textColor="?attr/text_color_primary"
             android:textSize="@dimen/s14_size" />
         </RelativeLayout>
