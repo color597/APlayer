@@ -407,7 +407,7 @@ public class FastScroller extends LinearLayout {
   }
 
   private boolean isViewVisible(View view) {
-    return view != null && view.getVisibility() == VISIBLE;
+    return view != null && view.getVisibility() != GONE;
   }
 
   private void cancelAnimation(ViewPropertyAnimator animator) {
