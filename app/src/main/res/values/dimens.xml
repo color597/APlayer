@@ -114,7 +114,7 @@
   <dimen name="desktop_lyric_button_size">36dp</dimen>
   <dimen name="desktop_lyric_container_margin_top">88dp</dimen>
 
-  <dimen name="player_button_size">56dp</dimen>
+  <dimen name="player_button_size">36dp</dimen>
   <dimen name="player_volume_button_size">48dp</dimen>
   <dimen name="player_seekbar_padding">6dp</dimen>
   <dimen name="player_seekbar_margin">12dp</dimen>
