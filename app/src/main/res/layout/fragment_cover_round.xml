@@ -9,13 +9,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_centerHorizontal="true"
-    android:layout_marginLeft="16dp"
+    android:layout_marginHorizontal="@dimen/d24_size"
     android:layout_marginTop="4dp"
-    android:layout_marginRight="16dp"
     android:layout_marginBottom="16dp"
     android:visibility="visible"
-    app:cardCornerRadius="@dimen/d8_size"
-    app:cardElevation="@dimen/d8_size">
+    app:cardCornerRadius="@dimen/d16_size"
+    app:cardElevation="0px">
 
     <!--    <com.facebook.drawee.view.SimpleDraweeView-->
     <!--      android:id="@+id/cover_image"-->
