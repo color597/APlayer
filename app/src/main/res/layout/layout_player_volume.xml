@@ -9,8 +9,7 @@
     android:layout_marginTop="@dimen/d8_size"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="@dimen/d36_size"
-    android:layout_marginRight="@dimen/d36_size"
+    android:layout_marginHorizontal="@dimen/d36_size"
     android:paddingTop="@dimen/d12_size"
     android:paddingBottom="@dimen/d12_size"
     android:paddingStart="@dimen/d8_size"
@@ -25,6 +24,7 @@
   <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/d36_size"
     android:id="@+id/volume_container"
     android:layout_marginBottom="@dimen/d16_size">
     <ImageButton
@@ -32,7 +32,8 @@
       android:layout_width="@dimen/player_volume_button_size"
       android:layout_height="@dimen/player_volume_button_size"
       android:layout_centerVertical="true"
-      android:layout_marginLeft="@dimen/d18_size"
+      android:layout_alignParentStart="true"
+      android:layout_toStartOf="@id/volume_seekbar"
       android:background="@color/transparent"
       app:srcCompat="@drawable/ic_volume_down_black_24dp"/>
     <ImageButton
@@ -40,8 +41,8 @@
       android:layout_width="@dimen/player_volume_button_size"
       android:layout_height="@dimen/player_volume_button_size"
       android:layout_centerVertical="true"
-      android:layout_alignParentRight="true"
-      android:layout_marginRight="@dimen/d18_size"
+      android:layout_alignParentEnd="true"
+      android:layout_toEndOf="@id/volume_seekbar"
       android:background="@color/transparent"
       app:srcCompat="@drawable/ic_volume_up_black_24dp"/>
     <SeekBar
@@ -53,13 +54,11 @@
       android:progressDrawable="@drawable/bg_progress"
       android:paddingStart="@dimen/player_seekbar_padding"
       android:paddingEnd="@dimen/player_seekbar_padding"
-      android:layout_centerVertical="true"
+      android:layout_centerInParent="true"
       android:layout_marginStart="@dimen/player_seekbar_margin"
       android:layout_marginEnd="@dimen/player_seekbar_margin"
-      android:layout_toRightOf="@id/volume_down"
-      android:layout_toLeftOf="@id/volume_up"
-      android:layout_marginLeft="@dimen/d20_size"
-      android:layout_marginRight="@dimen/d20_size"
+      android:layout_toStartOf="@id/volume_up"
+      android:layout_toEndOf="@id/volume_down"
       android:max="100"/>
   </RelativeLayout>
 </RelativeLayout>
