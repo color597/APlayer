@@ -2,7 +2,6 @@
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
   <uses-permission android:name="android.permission.INTERNET"/>
@@ -12,6 +11,8 @@
   <uses-permission android:name="android.permission.WAKE_LOCK"/>
   <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
   <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+  <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+  <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
 
   <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false"/>
 
@@ -44,7 +45,8 @@
     <activity
       android:name=".ui.activity.MainActivity"
       android:theme="@style/ActivityStyle"
-      android:launchMode="singleTask">
+      android:launchMode="singleTask"
+      android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <action android:name="android.intent.action.MUSIC_PLAYER"/>
@@ -162,7 +164,8 @@
 
 
     <!-- 线控 -->
-    <receiver android:name=".misc.receiver.MediaButtonReceiver">
+    <receiver android:name=".misc.receiver.MediaButtonReceiver"
+      android:exported="false">
       <intent-filter>
         <action android:name="android.intent.action.MEDIA_BUTTON"/>
       </intent-filter>
@@ -177,7 +180,8 @@
     </receiver>
 
     <service
-      android:exported="false"
+      android:exported="true"
+      android:foregroundServiceType="mediaPlayback"
       android:name=".service.MusicService"/>
     <service
       android:exported="false"
@@ -186,7 +190,8 @@
     <!-- 桌面部件 -->
     <receiver
       android:label="@string/app_widget_big_name"
-      android:name=".appwidgets.big.AppWidgetBig">
+      android:name=".appwidgets.big.AppWidgetBig"
+      android:exported="false">
       <intent-filter>
         <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
       </intent-filter>
@@ -197,7 +202,8 @@
     </receiver>
     <receiver
       android:label="@string/app_widget_medium_name"
-      android:name=".appwidgets.medium.AppWidgetMedium">
+      android:name=".appwidgets.medium.AppWidgetMedium"
+      android:exported="false">
       <intent-filter>
         <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
       </intent-filter>
@@ -208,7 +214,8 @@
     </receiver>
     <receiver
       android:label="@string/app_widget_small_name"
-      android:name=".appwidgets.small.AppWidgetSmall">
+      android:name=".appwidgets.small.AppWidgetSmall"
+      android:exported="false">
       <intent-filter>
         <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
       </intent-filter>
@@ -220,7 +227,8 @@
     <!--透明桌面部件-->
     <receiver
       android:label="@string/app_widget_medium_transparent_name"
-      android:name=".appwidgets.medium.AppWidgetMediumTransparent">
+      android:name=".appwidgets.medium.AppWidgetMediumTransparent"
+      android:exported="false">
       <intent-filter>
         <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
       </intent-filter>
@@ -231,7 +239,8 @@
     </receiver>
     <receiver
       android:label="@string/app_widget_small_transparent_name"
-      android:name=".appwidgets.small.AppWidgetSmallTransparent">
+      android:name=".appwidgets.small.AppWidgetSmallTransparent"
+      android:exported="false">
       <intent-filter>
         <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
       </intent-filter>
