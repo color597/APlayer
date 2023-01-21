@@ -113,6 +113,9 @@ android {
         nyanpasu {
             applicationIdSuffix '.nyanpasu'
         }
+        color597 {
+            applicationIdSuffix '.color597'
+        }
         productFlavors.all { flavor ->
             flavor.manifestPlaceholders = [CHANNEL_VALUE: name]
         }
