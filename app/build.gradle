@@ -1,20 +1,16 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-kapt'
-apply plugin: 'bugly'
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.kapt'
+    id 'kotlin-android-extensions'
+    id 'bugly'
+}
 
 def properties = getProperties('../local.properties')
 
 bugly {
     appId = "${getProperty(properties, 'BUGLY_APPID')}"
     appKey = "04ab39c8-86fc-4ed6-b28b-6fdfee6e19d9"
-}
-
-repositories {
-    maven {
-        url 'https://maven.google.com'
-    }
 }
 
 android {
@@ -131,12 +127,6 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    repositories {
-        flatDir {
-            dirs 'libs'
-        }
     }
 
     buildFeatures {
