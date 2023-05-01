@@ -291,8 +291,8 @@
   <string name="display_title_desc">檔案名降序</string>
   <string name="artist">藝術家</string>
   <string name="artist_desc">藝術家降序</string>
-  <string name="date">新增時間</string>
-  <string name="date_desc">新增時間降序</string>
+  <string name="date_modify">修改時間</string>
+  <string name="date_modify_desc">修改時間降序</string>
   <string name="duration">時長</string>
   <string name="year">年份</string>
   <string name="number_of_album">專輯數量</string>
@@ -448,4 +448,9 @@
   <string name="lyric_font_size_normal">正常</string>
   <string name="lyric_font_size_big">大</string>
   <string name="lyric_font_size_huge">超大</string>
+
+  <string name="donation">捐贈</string>
+  <string name="support_developer">支持開發者</string>
+  <string name="no_more_prompt">不再提示</string>
+  <string name="go">前往</string>
 </resources>
