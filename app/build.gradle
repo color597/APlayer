@@ -117,12 +117,6 @@ android {
         }
     }
 
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-        disable 'MissingTranslation'
-        disable 'InvalidPackage'
-    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -131,6 +125,11 @@ android {
 
     buildFeatures {
         viewBinding = true
+    }
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+        disable 'MissingTranslation', 'InvalidPackage'
     }
 
 //    packagingOptions {
@@ -143,8 +142,8 @@ dependencies {
 
     //support
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.appcompat:appcompat:1.6.0'
-    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.palette:palette-ktx:1.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.media:media:1.6.0'
@@ -170,7 +169,6 @@ dependencies {
 
     //kotlin
     implementation 'org.jetbrains.anko:anko-common:0.10.4'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
     //leakCanary
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.10'
@@ -182,9 +180,9 @@ dependencies {
     implementation 'com.anjlab.android.iab.v3:library:2.0.3'
 
     //room
-    implementation 'androidx.room:room-runtime:2.4.2'
-    kapt 'androidx.room:room-compiler:2.4.2' // use kapt for Kotlin
-    implementation 'androidx.room:room-rxjava2:2.4.2'
+    implementation 'androidx.room:room-runtime:2.5.1'
+    kapt 'androidx.room:room-compiler:2.5.1' // use kapt for Kotlin
+    implementation 'androidx.room:room-rxjava2:2.5.1'
 
     //rxlife
 //    implementation 'com.trello.rxlifecycle3:rxlifecycle:3.0.0'
@@ -195,8 +193,8 @@ dependencies {
     //timber
     implementation 'com.jakewharton.timber:timber:5.0.1'
 
-    implementation 'com.github.bumptech.glide:glide:4.14.2'
-    kapt 'com.github.bumptech.glide:compiler:4.14.2'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    kapt 'com.github.bumptech.glide:compiler:4.15.1'
 
     // jaudiotagger
     implementation 'net.jthink:jaudiotagger:3.0.1'
@@ -205,8 +203,8 @@ dependencies {
     implementation 'com.facebook.rebound:rebound:0.3.8'
     implementation 'com.soundcloud.android:android-crop:1.0.1@aar'
     implementation 'com.github.promeg:tinypinyin:2.0.1'
-    implementation 'org.slf4j:slf4j-api:2.0.3'
-    implementation 'com.github.tony19:logback-android:2.0.0'
+    implementation 'org.slf4j:slf4j-api:2.0.7'
+    implementation 'com.github.tony19:logback-android:3.0.0'
 
 }
 

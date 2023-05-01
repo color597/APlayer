@@ -58,7 +58,7 @@ abstract class AppDatabase : RoomDatabase() {
           .addMigrations(migration1to3)
           .build()
       database.invalidationTracker.addObserver(object : InvalidationTracker.Observer(PlayList.TABLE_NAME, PlayQueue.TABLE_NAME) {
-        override fun onInvalidated(tables: MutableSet<String>) {
+        override fun onInvalidated(tables: Set<String>) {
           Timber.v("onInvalidated: $tables")
           if (tables.contains(PlayList.TABLE_NAME)) {
             sendLocalBroadcast(Intent(MusicService.PLAYLIST_CHANGE)
