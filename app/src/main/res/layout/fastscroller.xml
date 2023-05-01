@@ -43,17 +43,19 @@
 
     <ImageView
       android:id="@+id/fastscroll_track"
+      android:paddingEnd="@dimen/fastscroll_scrollbar_padding"
       android:layout_width="wrap_content"
       android:layout_height="match_parent"
-      android:layout_gravity="center_horizontal"
+      android:layout_gravity="end"
       tools:src="@drawable/fastscroll_track"
       tools:ignore="ContentDescription"/>
 
     <ImageView
       android:id="@+id/fastscroll_handle"
+      android:paddingEnd="@dimen/fastscroll_scrollbar_padding"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_gravity="center_horizontal"
+      android:layout_gravity="end"
       tools:src="@drawable/fastscroll_handle"
       tools:ignore="ContentDescription"/>
 
